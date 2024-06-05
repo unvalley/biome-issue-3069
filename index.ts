@@ -2,6 +2,6 @@
 const flattenArray = (input: any) =>
 	input.reduce(
         // noAccumulationSpread
-		(acc, item) => [...acc, ...(Array.isArray(item) ? item : [item])],
+		(acc: any, item) => [...acc, ...(Array.isArray(item) ? item : [item])],
 		[],
 	);
