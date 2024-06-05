@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "biome lint .",
-    "lint:staged": "biome lint . --staged"
+    "lint:staged": "biome lint --staged ."
   },
   "keywords": [],
   "author": "",
